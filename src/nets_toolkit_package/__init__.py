@@ -22,8 +22,16 @@
 # SOFTWARE.
 
 """
-Add a docstring here for the init module.
+network_tools
+=============
 
-This might include a very brief description of the package,
-its purpose, and any important notes.
+From-scratch network science utilities built on NetworkX and NumPy.
+
+The package provides degree-distribution binning for plotting, closeness and
+eigenvector centrality, degree-preserving randomization and configuration-model
+null models, and modularity for weighted or unweighted graphs. The
+implementations are written for clarity and teaching, so for large graphs the
+optimized NetworkX equivalents will be much faster.
+
+Requirements: numpy, networkx
 """
